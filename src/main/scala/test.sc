@@ -1,4 +1,2 @@
-import scala.collection.mutable
-
-var a = mutable.Set(1,2,3)
-a += 3
+var a: Map[Int,String] = Map()
+a + (1 -> "HI")
